@@ -25,13 +25,14 @@ class Main{
 
 
 
-
 //exception handling
 import java.util.Scanner;
 class Solution{
     void checkPrice(int price) throws ArithmeticException{
-        if(price<0)
-            throw new ArithmeticException("Price "+price+" cannot be less than 0");
+        if(price<0){
+            String exceptionMessage = "Price "+price+" cannot be less than 0";
+            throw new ArithmeticException(exceptionMessage);
+        }
         System.out.println("Price "+price+" is valid. storing data into DB");
     }
 
@@ -68,7 +69,105 @@ class Main{
 
 
 
+//if
+import java.util.Scanner;
+
+class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int valueA = sc.nextInt();
+        int valueB = sc.nextInt();
+
+
+        if(valueB != 0){ //! -> not       = -> equal 
+            int div = valueA/valueB;
+            System.out.println("Division: "+div);
+        }
+        else{
+            System.out.println("Provided valueB is 0, Division cannot be performed");
+        }
+        
+       int sum = valueA + valueB;
+       System.out.println("Addition: "+sum);
+    }
+}
+
+
+// grade calculation
+import java.util.Scanner;
+
+class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int mark = sc.nextInt();
+
+        if(mark>80){ //81-100
+            System.out.println("A Grade");
+        }
+        else if(mark > 70){ // 71-80
+            System.out.println("B Grade");
+        }
+        else if(mark > 60){//61-70
+            System.out.println("C Grade");
+        }
+        else{//0-59
+            System.out.println("D Grade");
+        }
+    }
+}
 
 
 
-//
+// switch calculation
+import java.util.Scanner;
+
+class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int number = sc.nextInt();
+        switch( number){
+            case 1:
+                System.out.println("ONE");
+                break;
+            case 2:
+                System.out.println("TWO");
+                break;
+            case 3:
+                System.out.println("THREE");
+                break; 
+            case 4:
+                System.out.println("FOUR");
+                break; 
+            default: 
+                System.out.println("Number not in range of 1 to 4");
+        }
+        
+    }
+}
+
+
+// biggest number
+import java.util.Scanner;
+
+class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int number1 = sc.nextInt();
+        int number2 = sc.nextInt();
+        int maximumNumber;
+
+        if(number1 > number2){
+            maximumNumber = number1;
+        }
+        else{
+            maximumNumber = number2;
+        }
+
+        maximumNumber = (number1>number2) ? number1:number2;
+        
+        System.out.println(maximumNumber + " is the Biggest");
+
+
+        
+    }
+}
