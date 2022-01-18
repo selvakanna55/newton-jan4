@@ -37,8 +37,8 @@ class Main{
         System.out.println("Add 11 to 300: "+sumValue);
         sumValue++; // ++ means increament by 1;
         System.out.println("Add 1 using ++ operator: "+sumValue);
-        sumValue/=2;
-        System.out.println("Add 1 using ++ operator: "+sumValue);
+        sumValue/=2; // sumValue/=2 is equal to sumValue = sumValue/2
+        System.out.println("Divide sumValue by 2 using / operator: "+sumValue);
 
     }
 }
