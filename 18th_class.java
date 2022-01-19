@@ -197,3 +197,28 @@ class Main{
         
     }
 }
+
+//test
+import java.util.Scanner;
+
+class Main{
+    public static void main(String args[]) throws ArithmeticException{
+        Scanner sc = new Scanner(System.in);
+        int number1 = sc.nextInt();
+
+        // number is odd or even 
+        // even divisble 2
+        // not div 
+
+        // ///if()    
+        // int res = 10/2; //5
+        // int ans = 10%2; //0
+        if(number1 % 2 == 0){ // is number1%2 is equal to 0
+            System.out.println("Even");
+        }
+        else{ //number1%2 is equal to 1
+            System.out.println("Odd");
+        }
+
+    }
+}
