@@ -1,0 +1,45 @@
+recursion
+base case
+stack overflow /  stack space
+recursion tree
+
+recursion re-cap + some pending items from last class
+time complexity, space complexity of recursion how to meassure it?
+basics divide and conquer
+master theorem (might go to next class)
+
+
+
+import java.io.*; // for handling input/output
+import java.util.*; // contains Collections framework
+
+
+
+class Main {
+
+
+	public static void processNextNumber(int n, int b, Set<Integer> visited){
+		visited.add(n);
+		if(b>0){
+			processNextNumber(n+3, b-1, visited);
+			processNextNumber(n-3, b-1, visited);
+			processNextNumber(n*2, b-1, visited);
+		}		
+	}
+	
+
+	public static void main (String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int testcase = sc.nextInt();
+		while(testcase>0){
+			int a = sc.nextInt();
+			int b = sc.nextInt();
+			Set<Integer> visited  = new HashSet<Integer>();
+			visited.add(a);
+			processNextNumber(a, b, visited);
+			System.out.println(visited.size());
+			testcase--;
+		}
+
+	}
+}
