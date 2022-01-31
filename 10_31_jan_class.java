@@ -171,3 +171,46 @@ class Solution{
     }
 }
 
+
+
+
+import java.util.Scanner;
+import java.math.BigInteger;
+import java.util.Scanner;
+
+class Main{
+    public static void main(String args[]){
+        Solution sol = new Solution();
+        sol.solve();
+    }
+}
+
+class Solution{
+    long MOD  = 1000000007; 
+
+    long power(long a, long b, long localMod){
+        if(b==0){ // is b is 0
+            return 1;
+        }
+
+        long res = power(a, b/2, localMod);
+        System.out.println(res);
+        
+        if(b%2==0){ // even
+            return (res * res)%localMod;
+        }
+        else{ // odd
+            return ((a * res)%localMod * res)%localMod;
+        }
+    }
+
+
+    public void solve(){
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+
+        System.out.println(power(a,b, MOD));
+
+    }
+}
