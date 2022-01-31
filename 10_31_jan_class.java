@@ -111,3 +111,63 @@ class Solution{
         System.out.println(pow(a,b));
     }
 }
+
+
+
+// (a-b) %c = ((a%c - b%c )+ c)%c
+
+// (a%c - b%c) + 0
+
+
+
+
+
+import java.util.Scanner;
+import java.math.BigInteger;
+import java.util.Scanner;
+
+class Main{
+    public static void main(String args[]){
+        Solution sol = new Solution();
+        sol.solve();
+    }
+}
+
+class Solution{
+    int MOD  = 1000000007; //10^9 + 7
+    // final ans should be mod 10^9 + 7
+    // 1000000007
+
+    // 5! = 5*4*3*2*1 = 120
+    int  factorial(int n){
+        int result = 1;
+
+        for(int i=2;i<=n;i++)
+            result = (result * i)%MOD; //0 to MOD-1
+
+        return result; // 0 to 46
+    }
+
+
+    public void solve(){
+        //given a number A ^ B find ans, 
+        //finally print ans with MOD 10^9 + 7
+        Scanner sc = new Scanner(System.in);
+
+        int ans = 1;
+        int a = 2;
+        int b = 16; 
+        // 170^107;
+        for(int i=1;i<=b;i++){
+            ans = (ans * a) % MOD;
+        }
+        //  O(b) 
+   
+        // double ans = Math.pow(170,107, mod); // double
+        
+        System.out.println(ans);
+
+      
+    }
+}
+

@@ -148,9 +148,9 @@ class Main{
 
 
 
-// 22
+// 22 -> O(n)
 // i from 1 to 22
-// i%==0, divisor 
+// n%i==0, divisor 
 // 1,2,11,22
 
 // 30
@@ -164,14 +164,21 @@ class Main{
 // 30%3 = 0  -> 3 -> 30/3 = 10
 
 
-// 36 -> 6 (1 to <=6)
-// 1 -> 1,36
-// 2 -> 2, 18
-// 3 -> 3, 12
+// 36 -> 6 (1 to <=6) // sqrt(n) -> O(sqrt(n)) O(1)
+// 1 -> 1,36 // 36%1 == 0  -> 36/1
+// 2 -> 2, 18 // 36%2 == 0 -> 36 % (18)
+// 3 -> 3, 12 // 36%3 == 0 -> 36/(36/3)
 // 4 -> 4, 9
 // 6 -> 6, 6
 
+not needed as it is repeating
+// 9 -> 9, 4
+// 12 -> 12,3
+// 18 -> 18,2
+// 36 -> 36,1
+
 // sqrt(nu) * sqrt(nu) = nu
+
 
 
 
@@ -190,6 +197,10 @@ class Main{
 
 
 
+
+any number -> multiples of powers of prime
+10 -> 2^1 * 5^1 
+18 -> 2^1 *  3^2 -> 2,3,3
 
 // print factors of number, where every factor should be prime number
 // 12 -> 1,12, 2,6  3,4 

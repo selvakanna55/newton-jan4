@@ -1,0 +1,12 @@
+recursion
+base case
+stack overflow /  stack space
+recursion tree
+
+recursion re-cap + some pending items from last class
+time complexity, space complexity of recursion how to meassure it?
+basics divide and conquer
+master theorem (might go to next class)
+
+
+
