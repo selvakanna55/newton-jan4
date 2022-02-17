@@ -2,13 +2,18 @@ class Main{
 
   static void bubbleSort(int arr[], int n){
         for(int i=0;i<n;i++){
+          boolean isSwapped = false;
+          // second for loop
             for(int j=0;j<n-1-i;j++){
                 if(arr[j]>arr[j+1]){
+                      isSwapped = true;
                     int temp = arr[j];
                     arr[j] = arr[j+1];
                     arr[j+1] = temp;
                 }
             }
+            // end of second for loop
+            if(isSwapped==false) break;
         }
     }
 
