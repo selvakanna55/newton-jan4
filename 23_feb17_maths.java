@@ -1,6 +1,7 @@
 import java.util.*;
 
 class Main{
+
     int gcd(int a, int b){
         if(b==0) return a;
         return gcd(b, (a%b));
@@ -43,16 +44,16 @@ class Main{
         }
         return true;
     }
-    
-    boolean isPrimeOptimal2(int n){
-        if(n==2) return true;
-        else if(n%2==0) return false;
-        for(int i=3;i<=Math.sqrt(n);i+=2){
+    // sqrt(n)
+    boolean isPrimeOptimal2(int n){ 
+        if(n==2) return true; // 2 is only even prime
+        else if(n%2==0) return false; // any other even is not primr
+        for(int i=3;i<=Math.sqrt(n);i+=2){ // 3 , 5, 7, ...
             if(n%i==0) return false;
         }
         return true;
     }
-   
+    
     public static void main(String args[]){
         // Main mainObj = new Main(); // creating object
         // Scanner sc = new Scanner(System.in);
