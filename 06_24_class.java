@@ -98,6 +98,15 @@ class Solution{
         return gcd(b,a%b); // 
     }
 
+    int iterGCD(int a, int b){
+        while(b>0){
+            int temp = a%b;
+            a = b;
+            b = temp;
+        }
+        return a;
+    }
+
     public void solve(){
         int a= 170;       
         int b= 17;       
