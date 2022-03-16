@@ -1,0 +1,26 @@
+1D arrays
+
+
+array -> homogenous
+a1,a2,..
+indexing -> 0,
+address calculation
+print arr with for, while, for each
+arr index out of bound exception
+no of ways to crate arr
+ int arr[] = {1,2,3}; // declare+memory+value assign
+ int arr1[] = new int[5]; // decleare+memery allocation
+ 	arr[0] = 100;...
+ int arr3[]; // declare
+ arr3  = new int[5]; // memory allcation
+ default values
+ arr -> input, sum
+ arr.length
+
+
+// int, long ->0
+        //double, flat -> 0.0
+        // string null
+        //char ? -> garbage
+        // boolean false
+        

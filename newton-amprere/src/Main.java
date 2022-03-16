@@ -26,28 +26,39 @@ public class Main {
 //            System.out.println("*****");
 //        }
 
-        int total = 3;
-        for(int row=1;row<=total;row++){
-            for(int i=1;i<=row;i++){
-                System.out.print("*");
-            }
-            System.out.println();
-        }
+//        int total = 3;
+//        for(int row=1;row<=total;row++){
+//            for(int i=1;i<=row;i++){
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//        }
+//
+//        int a = 1;
+//        int b = 1;
+//        // first two nos of fib series
+//        System.out.println(a);
+//        System.out.println(b);
+//        int c = a+b;
+//        for(int i=1;i<=3;i++){
+//            System.out.println(c);
+//            a = b;
+//            b = c;
+//            c = a+b;
+//        }
+//
+//
+//
+        String word = "newton";
+        word+=" school";
+        System.out.println(word);
 
-        int a = 1;
-        int b = 1;
-        // first two nos of fib series
-        System.out.println(a);
-        System.out.println(b);
-        int c = a+b;
-        for(int i=1;i<=3;i++){
-            System.out.println(c);
-            a = b;
-            b = c;
-            c = a+b;
-        }
-
-
+        StringBuffer sbf = new StringBuffer();
+        sbf.append("newton");
+        sbf.append(" ");
+        sbf.append("school");
+        sbf.append(1);
+        System.out.println(sbf.reverse());
 
 
 
