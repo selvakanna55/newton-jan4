@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e47e842-a221-49e2-97af-79e0f7ddbe96" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/newton-amprere/src/oops/OopsFirst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newton-amprere/src/oops/inheritance/SimpleInheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newton-amprere/src/oops/inheritance/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newton-amprere/src/oops/packageexplain/package2/DiffPackage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newton-amprere/src/oops/packageexplain/package2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newton-amprere/src/oops/packageexplain/simple/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newton-amprere/src/oops/packageexplain/simple/DiffFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newton-amprere/src/oops/packageexplain/simple/SimplePackage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newton-amprere/src/HashColl.java" beforeDir="false" afterPath="$PROJECT_DIR$/newton-amprere/src/HashColl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +49,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.SimpleShape">
-    <configuration name="ConstructorExplain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.ConstructorExplain" />
+  <component name="RunManager" selected="Application.SimplePackage">
+    <configuration name="DiffPackage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.packageexplain.package2.DiffPackage" />
       <module name="newton-amprere" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.*" />
+          <option name="PATTERN" value="oops.packageexplain.package2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionOverloading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.FunctionOverloading" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.packageexplain.package2.Main" />
       <module name="newton-amprere" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.*" />
+          <option name="PATTERN" value="oops.packageexplain.package2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,8 +76,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Simple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.inheritance.Simple" />
+    <configuration name="Package1Class" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.packagesexample.package1.Package1Class" />
+      <module name="newton-amprere" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oops.packagesexample.package1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleInheritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.inheritance.SimpleInheritance" />
       <module name="newton-amprere" />
       <extension name="coverage">
         <pattern>
@@ -84,25 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.SimpleClass" />
+    <configuration name="SimplePackage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.packageexplain.simple.SimplePackage" />
       <module name="newton-amprere" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleShape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.inheritance.SimpleShape" />
-      <module name="newton-amprere" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oops.inheritance.*" />
+          <option name="PATTERN" value="oops.packageexplain.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SimpleShape" />
-        <item itemvalue="Application.Simple" />
-        <item itemvalue="Application.ConstructorExplain" />
-        <item itemvalue="Application.FunctionOverloading" />
-        <item itemvalue="Application.SimpleClass" />
+        <item itemvalue="Application.SimplePackage" />
+        <item itemvalue="Application.DiffPackage" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SimpleInheritance" />
+        <item itemvalue="Application.Package1Class" />
       </list>
     </recent_temporary>
   </component>
