@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e47e842-a221-49e2-97af-79e0f7ddbe96" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/newton-amprere/src/oops/inheritance/SimpleInheritance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newton-amprere/src/oops/inheritance/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newton-amprere/src/oops/packageexplain/package2/DiffPackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newton-amprere/src/oops/packageexplain/package2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newton-amprere/src/oops/packageexplain/simple/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newton-amprere/src/oops/packageexplain/simple/DiffFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newton-amprere/src/oops/packageexplain/simple/SimplePackage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newton-amprere/src/oops/access/nonsubclass_samepackage/Example.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newton-amprere/src/oops/inheritance/SimpleInheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/newton-amprere/src/oops/inheritance/SimpleInheritance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newton-amprere/src/oops/inheritance/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/newton-amprere/src/oops/inheritance/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,14 +44,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/newton-amprere/src/oops/access" />
   </component>
-  <component name="RunManager" selected="Application.SimplePackage">
-    <configuration name="DiffPackage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.packageexplain.package2.DiffPackage" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kannan\Documents\GitHub\newton-jan4\newton-amprere\src\oops\access" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Runtime">
+    <configuration name="AppleLaptop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.access.p2.AppleLaptop" />
       <module name="newton-amprere" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.packageexplain.package2.*" />
+          <option name="PATTERN" value="oops.access.p2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.packageexplain.package2.Main" />
+    <configuration name="CompileTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.polymorphism.CompileTime" />
       <module name="newton-amprere" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.packageexplain.package2.*" />
+          <option name="PATTERN" value="oops.polymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Package1Class" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.packagesexample.package1.Package1Class" />
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.packagerecall.Example" />
       <module name="newton-amprere" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.packagesexample.package1.*" />
+          <option name="PATTERN" value="oops.packagerecall.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleInheritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.inheritance.SimpleInheritance" />
+    <configuration name="Runtime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.polymorphism.Runtime" />
       <module name="newton-amprere" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.inheritance.*" />
+          <option name="PATTERN" value="oops.polymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +104,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimplePackage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.packageexplain.simple.SimplePackage" />
+    <configuration name="StaticExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.abstraction.StaticExample" />
       <module name="newton-amprere" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.packageexplain.simple.*" />
+          <option name="PATTERN" value="oops.abstraction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Van" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.access.subclass_samepackage.Van" />
+      <module name="newton-amprere" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oops.access.subclass_samepackage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SimplePackage" />
-        <item itemvalue="Application.DiffPackage" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.SimpleInheritance" />
-        <item itemvalue="Application.Package1Class" />
+        <item itemvalue="Application.Runtime" />
+        <item itemvalue="Application.CompileTime" />
+        <item itemvalue="Application.StaticExample" />
+        <item itemvalue="Application.Van" />
+        <item itemvalue="Application.AppleLaptop" />
       </list>
     </recent_temporary>
   </component>

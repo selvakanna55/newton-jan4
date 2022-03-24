@@ -3,10 +3,10 @@ package oops.inheritance;
 public class Vehicle {
     protected  int wheels;
     int seats;
-    Vehicle(){
+    public Vehicle(){
         System.out.println("empty");
     }
-    void start(){
+    public  void start(){
         System.out.println("Vehicle started");
     }
     protected  Vehicle(int wheels, int seats){

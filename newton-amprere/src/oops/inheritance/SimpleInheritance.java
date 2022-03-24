@@ -22,7 +22,7 @@ class Cycle extends Vehicle{
         System.out.println("new Cycle is created");
         this.hasMudGaurd = hasMudGaurd;
     }
-    void start(){
+    public  void start(){
         super.start();
         System.out.println("Cycle is stared");
     }
@@ -38,7 +38,7 @@ class GearCycle extends Cycle{
         this.defaultGear = 3;
         System.out.println("Gear cycle is Created");
     }
-    void start(){
+    public  void start(){
         System.out.println("Gear cycle is started");
     }
 }
