@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e47e842-a221-49e2-97af-79e0f7ddbe96" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/newton-amprere/src/oops/access/nonsubclass_samepackage/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newton-amprere/src/oops/Aggrregation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newton-amprere/src/oops/inheritance/SimpleInheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/newton-amprere/src/oops/inheritance/SimpleInheritance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newton-amprere/src/oops/inheritance/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/newton-amprere/src/oops/inheritance/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newton-amprere/src/oops/abstraction/StaticExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/newton-amprere/src/oops/abstraction/StaticExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newton-amprere/src/oops/polymorphism/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/newton-amprere/src/oops/polymorphism/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newton-amprere/src/oops/polymorphism/Runtime.java" beforeDir="false" afterPath="$PROJECT_DIR$/newton-amprere/src/oops/polymorphism/Runtime.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +52,13 @@
       <recent name="C:\Users\Kannan\Documents\GitHub\newton-jan4\newton-amprere\src\oops\access" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Runtime">
-    <configuration name="AppleLaptop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.access.p2.AppleLaptop" />
+  <component name="RunManager" selected="Application.ExampleInterface">
+    <configuration name="Aggrregation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.Aggrregation" />
       <module name="newton-amprere" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.access.p2.*" />
+          <option name="PATTERN" value="oops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,8 +66,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompileTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.polymorphism.CompileTime" />
+    <configuration name="ExampleInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.interfaces.ExampleInterface" />
+      <module name="newton-amprere" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oops.interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FinalExplain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.polymorphism.FinalExplain" />
       <module name="newton-amprere" />
       <extension name="coverage">
         <pattern>
@@ -78,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.packagerecall.Example" />
+    <configuration name="Isinstanceofkeyword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.polymorphism.Isinstanceofkeyword" />
       <module name="newton-amprere" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.packagerecall.*" />
+          <option name="PATTERN" value="oops.polymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,39 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.abstraction.StaticExample" />
-      <module name="newton-amprere" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oops.abstraction.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Van" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.access.subclass_samepackage.Van" />
-      <module name="newton-amprere" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oops.access.subclass_samepackage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExampleInterface" />
+        <item itemvalue="Application.Aggrregation" />
+        <item itemvalue="Application.Isinstanceofkeyword" />
+        <item itemvalue="Application.FinalExplain" />
         <item itemvalue="Application.Runtime" />
-        <item itemvalue="Application.CompileTime" />
-        <item itemvalue="Application.StaticExample" />
-        <item itemvalue="Application.Van" />
-        <item itemvalue="Application.AppleLaptop" />
       </list>
     </recent_temporary>
   </component>
@@ -161,5 +149,26 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/newton-amprere/src/oops/interfaces/ExampleInterface.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/newton-amprere/src/oops/interfaces/ExampleInterface.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/newton-amprere/src/oops/interfaces/ExampleInterface.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

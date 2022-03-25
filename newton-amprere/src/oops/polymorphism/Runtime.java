@@ -11,9 +11,14 @@ public class Runtime {
 class ApplePhone extends Phone{
     int camera;
     boolean isIos;
+    ApplePhone(){
+        super(10);
+        System.out.println("Apple phone is created");
+    }
 
     void call(int number){
-        super.call(number); // super means got to parent
+        super.call(number); // super means got to immediate parent
+        super.screenSize = 99;
         System.out.println("Calling from apple phone to "+number);
     }
 
