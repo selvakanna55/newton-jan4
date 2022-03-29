@@ -2,14 +2,14 @@ package oops;
 
 public class FunctionOverloading {
     public static void main(String[] args) {
-        Shape square = new Shape();
+        Shapes square = new Shapes();
         System.out.println("Area of Square: "+square.getArea(10));
-        Shape rectangle = new Shape();
+        Shapes rectangle = new Shapes();
         System.out.println("Area of Rectangle: "+rectangle.getArea(10, 20));
     }
 }
 
-class Shape{
+class Shapes{
     int getArea(int side){
         System.out.println("Calculating area of square");
         return  side*side;

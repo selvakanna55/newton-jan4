@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8e47e842-a221-49e2-97af-79e0f7ddbe96" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newton-amprere/src/Assignments/Overloading.java" beforeDir="false" afterPath="$PROJECT_DIR$/newton-amprere/src/oops/Overloading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newton-amprere/src/Assignments/SumLarge.java" beforeDir="false" afterPath="$PROJECT_DIR$/newton-amprere/src/Assignments/SumLarge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newton-amprere/src/Assignments/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/newton-amprere/src/Assignments/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newton-amprere/src/Assignments/IncreasingFrequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/newton-amprere/src/Assignments/IncreasingFrequency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newton-amprere/src/oops/FunctionOverloading.java" beforeDir="false" afterPath="$PROJECT_DIR$/newton-amprere/src/oops/FunctionOverloading.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,19 +45,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/newton-amprere/src/oops/access" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Kannan\Documents\GitHub\newton-jan4\newton-amprere\src\oops\access" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExampleInterface">
-    <configuration name="Aggrregation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.Aggrregation" />
+  <component name="RunManager" selected="Application.SetExpalin">
+    <configuration name="ArrayListExplain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stl.ArrayListExplain" />
       <module name="newton-amprere" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.*" />
+          <option name="PATTERN" value="stl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExampleInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.interfaces.ExampleInterface" />
+    <configuration name="SetExpalin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stl.SetExpalin" />
       <module name="newton-amprere" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.interfaces.*" />
+          <option name="PATTERN" value="stl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinalExplain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.polymorphism.FinalExplain" />
+    <configuration name="TwoSUm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stl.TwoSUm" />
       <module name="newton-amprere" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.polymorphism.*" />
+          <option name="PATTERN" value="stl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Isinstanceofkeyword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.polymorphism.Isinstanceofkeyword" />
+    <configuration name="VectorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stl.VectorExample" />
       <module name="newton-amprere" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.polymorphism.*" />
+          <option name="PATTERN" value="stl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runtime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oops.polymorphism.Runtime" />
+    <configuration name="Wrappers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stl.Wrappers" />
       <module name="newton-amprere" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oops.polymorphism.*" />
+          <option name="PATTERN" value="stl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ExampleInterface" />
-        <item itemvalue="Application.Aggrregation" />
-        <item itemvalue="Application.Isinstanceofkeyword" />
-        <item itemvalue="Application.FinalExplain" />
-        <item itemvalue="Application.Runtime" />
+        <item itemvalue="Application.SetExpalin" />
+        <item itemvalue="Application.ArrayListExplain" />
+        <item itemvalue="Application.VectorExample" />
+        <item itemvalue="Application.TwoSUm" />
+        <item itemvalue="Application.Wrappers" />
       </list>
     </recent_temporary>
   </component>
