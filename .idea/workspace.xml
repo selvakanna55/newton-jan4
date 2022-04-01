@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8e47e842-a221-49e2-97af-79e0f7ddbe96" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newton-amprere/src/Assignments/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/newton-amprere/src/Assignments/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newton-amprere/src/Assignments/IncreasingFrequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/newton-amprere/src/Assignments/IncreasingFrequency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newton-amprere/src/oops/FunctionOverloading.java" beforeDir="false" afterPath="$PROJECT_DIR$/newton-amprere/src/oops/FunctionOverloading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newton-amprere/src/stl/ArrayListExplain.java" beforeDir="false" afterPath="$PROJECT_DIR$/newton-amprere/src/stl/ArrayListExplain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newton-amprere/src/stl/SetExpalin.java" beforeDir="false" afterPath="$PROJECT_DIR$/newton-amprere/src/stl/SetExpalin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +53,22 @@
       <recent name="C:\Users\Kannan\Documents\GitHub\newton-jan4\newton-amprere\src\oops\access" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SetExpalin">
+  <component name="RunManager" selected="Application.HashMapExample">
     <configuration name="ArrayListExplain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stl.ArrayListExplain" />
+      <module name="newton-amprere" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stl.HashMapExample" />
       <module name="newton-amprere" />
       <extension name="coverage">
         <pattern>
@@ -107,26 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Wrappers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stl.Wrappers" />
-      <module name="newton-amprere" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashMapExample" />
         <item itemvalue="Application.SetExpalin" />
         <item itemvalue="Application.ArrayListExplain" />
         <item itemvalue="Application.VectorExample" />
         <item itemvalue="Application.TwoSUm" />
-        <item itemvalue="Application.Wrappers" />
       </list>
     </recent_temporary>
   </component>

@@ -9,9 +9,9 @@ public class SetExpalin {
     static  void hashMapCall(){
 
         TreeSet<Integer> set2 = new TreeSet<>();
-        set2.add(10);
-        set2.add(20);
         set2.add(30);
+        set2.add(20);
+        set2.add(10);
         System.out.println(set2);
         set2.add(30);
         System.out.println(set2);
@@ -34,13 +34,14 @@ public class SetExpalin {
         set1.add(30);
         System.out.println(set1);
         set1.add(30);
+//        hashMapCall();
         System.out.println(set1);
         System.out.println(set1.add(99));
         System.out.println(set1.add(99));
         System.out.println(set1.contains(10));
         System.out.println(set1.contains(111));
 
-        set1.iterator()
+//        set1.iterator();
 
 
 
