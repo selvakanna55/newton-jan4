@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8e47e842-a221-49e2-97af-79e0f7ddbe96" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newton-amprere/src/stl/ArrayListExplain.java" beforeDir="false" afterPath="$PROJECT_DIR$/newton-amprere/src/stl/ArrayListExplain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newton-amprere/src/stl/SetExpalin.java" beforeDir="false" afterPath="$PROJECT_DIR$/newton-amprere/src/stl/SetExpalin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,14 @@
       <recent name="C:\Users\Kannan\Documents\GitHub\newton-jan4\newton-amprere\src\oops\access" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashMapExample">
+  <component name="RunManager" selected="Application.Array2D">
+    <configuration name="Array2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array2D" />
+      <module name="newton-amprere" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArrayListExplain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stl.ArrayListExplain" />
       <module name="newton-amprere" />
@@ -93,19 +98,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSUm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stl.TwoSUm" />
-      <module name="newton-amprere" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="VectorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stl.VectorExample" />
       <module name="newton-amprere" />
@@ -121,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Array2D" />
         <item itemvalue="Application.HashMapExample" />
         <item itemvalue="Application.SetExpalin" />
         <item itemvalue="Application.ArrayListExplain" />
         <item itemvalue="Application.VectorExample" />
-        <item itemvalue="Application.TwoSUm" />
       </list>
     </recent_temporary>
   </component>

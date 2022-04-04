@@ -1,0 +1,15 @@
+[https://codebunk.com/b/9621100441673/](https://codebunk.com/b/9621100441673/)
+
+[https://media.geeksforgeeks.org/wp-content/cdn-uploads/Access-Modifiers-in-Java.png](https://media.geeksforgeeks.org/wp-content/cdn-uploads/Access-Modifiers-in-Java.png)
+
+transpose matrix - [https://my.newtonschool.co/playground/code/apgebi9y2flb/](https://my.newtonschool.co/playground/code/apgebi9y2flb/)
+
+A Boolean Matrix Problem - [https://my.newtonschool.co/playground/code/wd4x052frf8z/](https://my.newtonschool.co/playground/code/wd4x052frf8z/)
+
+Rotate the matrix - [https://my.newtonschool.co/playground/code/4188df2divhf/](https://my.newtonschool.co/playground/code/4188df2divhf/)
+
+Matrix ZigZag Traversal - [https://my.newtonschool.co/playground/code/o7q500p6zy7s/](https://my.newtonschool.co/playground/code/o7q500p6zy7s/)
+
+Anti clockwise [https://my.newtonschool.co/playground/code/hfux8tc53lr3/](https://my.newtonschool.co/playground/code/hfux8tc53lr3/)
+
+Chess Board [https://my.newtonschool.co/playground/code/im47flp4t8zq/](https://my.newtonschool.co/playground/code/im47flp4t8zq/)
